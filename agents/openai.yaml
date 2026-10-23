@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender to After Effects Matchmove"
+  short_description: "Camera solves and drift correction for AE inserts"
+  default_prompt: "Use $blender-ae-matchmove to solve this shot in Blender, place the artwork in After Effects, and correct any remaining drift."

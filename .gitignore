@@ -1,0 +1,39 @@
+# Default deny: a new file must be explicitly reviewed before it can enter Git.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/SKILL.md
+!/GIST.md
+!/CHANGELOG.md
+!/PUBLISHING.md
+!/agents/
+!/references/
+!/examples/
+
+/agents/*
+!/agents/openai.yaml
+
+/references/*
+!/references/workflow.md
+!/references/synthetic-example.md
+
+# Only these reviewed synthetic examples may be committed.
+# Do not replace this list with a blanket media extension or folder exception.
+/examples/*
+!/examples/README.md
+!/examples/edge-alignment.webp
+!/examples/recreated-comparison-poster.webp
+!/examples/recreated-comparison.mp4
+
+# Redundant reminders: production assets and release binaries stay outside Git.
+/production/
+/private/
+/source-media/
+/projects/
+/renders/
+/release/
+/dist/
+/.work/
+.env
+.env.*
